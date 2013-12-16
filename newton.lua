@@ -2,7 +2,7 @@
 
 eta = 0.00001
 
-function newtown(x)
+function newton(x)
   local i = 0
   local diff = 1
   while (diff>eta) do
